@@ -36,3 +36,5 @@ def import_relative(root_dir_name, module_name):
         if rel_path not in sys.path:
             sys.path.append(rel_path)
 ```
+
+This function is used on ./moduleA/foo.py to import modules from moduleB, moduleC and moduleD directories.
